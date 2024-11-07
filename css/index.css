@@ -1,0 +1,179 @@
+header{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+header a{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+section.part1{
+    background: url(../images/home_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section.part1::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.525);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.811), rgba(255, 0, 0, 0));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.part1 div{
+    color: white;
+    margin: auto 0;
+    position: relative;
+    max-width: 600px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* section 2 */
+section.part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+section.part2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* section 3 */
+section.part3{
+    background: url(../images/ours3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.part3::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.525);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.811), rgba(255, 0, 0, 0));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.part3 table{
+    position: relative;
+    border-collapse: collapse;
+    color: white;
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+section.part3 table td{
+    padding: 10px 15px;
+    border: 1px solid var(--blanc);
+    font-size: 18px;
+}
+
+
+/* section 4 */
+section.part4{
+    height: 130vh;
+    background: url(../images/ours4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+section.part4::before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.811), rgba(0, 0, 0, 0));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section.part4 div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    max-width: 560px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+/* section 5 */
+section.part5{
+    background: url(../images/ours5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+section.part5 div{
+    position: relative;
+    margin: 100px 0 0 50px;
+    color: white;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* section 6 */
+section.part6{
+    background: url(../images/ours6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+section.part6 div{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 0 150px;
+    max-width: 600px;
+}
+
+section.part6 div h5{
+    text-align: center;
+}
+
